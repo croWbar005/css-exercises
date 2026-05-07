@@ -1,0 +1,11 @@
+.super{
+    background-color: black;
+    color: white;
+}
+.saiyan{
+    background-color: yellow;
+}
+.super .saiyan{
+    font-size: 28px;
+    font-family: 'halvetica','Times New Roman', 'sans-serif';
+}
