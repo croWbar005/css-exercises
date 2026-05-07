@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.dash{
+    background-color: rgb(255, 168, 210);
+    font-family: verdana,dejaVu Sans,sans-serif;
+}
+#super{
+    color: blue;
+    font-size: 36px;
+}
+.dash.tret{
+    font-size: 24px;
+}
+#saiyan{
+    font-size: 24;
+    background-color: rgb(159, 248, 159);
+    font-weight:bold;
+}
