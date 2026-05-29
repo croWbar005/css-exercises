@@ -8,10 +8,27 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.header1 {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex: 1 1 auto;
+}
+.header2 {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  flex: 1 1 auto;
+}
+
+.header3{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+  justify-content: flex-end;
+  flex: 1 1 auto;
 }
 
 .profile-image {
@@ -45,4 +62,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  justify-content: space-between;
+  gap: 16px;
 }
