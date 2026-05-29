@@ -4,12 +4,36 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
 }
 
 .title {
   font-size: 36px;
-  font-weight: 900;
+  font-weight: bold;
+}
+
+.mega{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.title1{
+  font-weight: bold;
+}
+.title2{
+  display: flex;
+  gap: 52px;
+  justify-content: space-around;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text{
+  text-align: center;
+  text-wrap: initial;
 }
 
 /* do not edit this footer */
